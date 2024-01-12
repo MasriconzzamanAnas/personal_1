@@ -79,6 +79,17 @@ section div{
 /* .sectionone .div2{
     padding-right: 160px;
 } */
+.sectionone input{
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #8392FF , #64B9FC);
+}
+.sectionone input:hover{
+    box-shadow: 5px 10px 20px rgba(131,146,255, 0.5);
+    transition: all 0.5 ease-in;
+}
 
 
 
