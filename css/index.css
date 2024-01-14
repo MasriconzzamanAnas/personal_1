@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Abhaya Libre', serif;
+    scroll-behavior: smooth;
 }
 /* header start */
 header{
@@ -184,6 +185,7 @@ section .sectionone{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    scroll-behavior: smooth;
     background-color: transparent;
 }
 .services1>div img{
@@ -206,6 +208,7 @@ section .sectionone{
 .services1>div:hover{
     background-image: linear-gradient(to right, #8392FF , #64B9FC);
     color: rgb(231, 224, 224);/**/
+    cursor: pointer;
 }
 .services1 .card1>p:hover{
     color: rgba(250, 250, 250, 0.5);
