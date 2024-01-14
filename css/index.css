@@ -176,5 +176,31 @@ section .sectionone{
     margin-right: 10px;
     margin: 0 auto;
 }
-
+.sectionthree .servicas1{
+    width: 100%;
+    height: 650px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.servicas1>div img{
+    width: 40px;
+}
+.servicas1>div{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+}
+.servicas1 .card1>p{
+    color: rgba( 0,0,0,0.5);
+}
+.servicas1 .card1>h4{
+    text-transform: uppercase;
+}
+.servicas1>div:hover{
+    background-image: linear-gradient(to right, #8392FF , #64B9FC);
+}
 /* section three end */
