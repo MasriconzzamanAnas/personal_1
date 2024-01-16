@@ -12,6 +12,7 @@ header{
     position: fixed;
     top: 0;
     background-color: #fff;
+    z-index: 1;
 }
 header div{
     float: left;
@@ -302,5 +303,13 @@ section .sectionone{
     padding: 14px;
     text-align: center;
 }
-
+.sectionfive .imgbox>div img {
+    width: 340px;
+    height: 339px;
+    background-image: -webkit-linear-gradient(0deg, #8490ff 40%, #62bdfc 100%);
+    overflow: hidden;
+}
+.sectionfive .imgbox> div:hover img{
+    opacity: 0.3;
+}
 /* section five end */
