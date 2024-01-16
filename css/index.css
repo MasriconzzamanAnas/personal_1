@@ -222,7 +222,6 @@ section .sectionone{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin: 0 auto;
     background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     font-family: Arial, Helvetica, sans-serif;
@@ -291,5 +290,26 @@ section .sectionone{
 .sectionfive .head .title2>ul li a:hover{
     color: #4270ee;
     text-underline-position: below;
+}
+.sectionfive .imgbox{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sectionfive .imgbox>div{
+    padding: 10px;
+}
+/* .sectionfive .imgbox .vector{
+    width: 319px;
+    height: 373px;
+} */
+.sectionfive .imgbox .vector>img{
+    width: 340px;
+    height: auto;
+}
+.sectionfive .imgbox .vector .pre{
+    display: none;
 }
 /* section five end */
