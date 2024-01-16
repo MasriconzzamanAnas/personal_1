@@ -235,4 +235,61 @@ section .sectionone{
     text-align: center;
     padding: 38px;
 }
+.sectionfour div>h3{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    color: #fff;
+}
+.sectionfour div>h5{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    color: #fff;
+}
 /* section four end */
+/* section five start */
+.sectionfive{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.sectionfive .head{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.sectionfive .head .title>h2{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectionfive .head .title>p{
+    margin-top: -18px;
+    font-size: 20px;
+    color: #9e9797;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sectionfive .head .title2>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionfive .head .title2>ul, li{
+    padding: 20px;
+    text-align: center;
+}
+.sectionfive .head .title2>ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.sectionfive .head .title2>ul li a:hover{
+    color: #4270ee;
+    text-underline-position: below;
+}
+/* section five end */
