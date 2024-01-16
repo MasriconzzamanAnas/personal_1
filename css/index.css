@@ -298,18 +298,9 @@ section .sectionone{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.sectionfive .imgbox>div{
-    padding: 10px;
+.sectionfive .imgbox> div{
+    padding: 14px;
+    text-align: center;
 }
-/* .sectionfive .imgbox .vector{
-    width: 319px;
-    height: 373px;
-} */
-.sectionfive .imgbox .vector>img{
-    width: 340px;
-    height: auto;
-}
-.sectionfive .imgbox .vector .pre{
-    display: none;
-}
+
 /* section five end */
