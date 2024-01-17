@@ -306,7 +306,7 @@ section .sectionone{
 .sectionfive .imgbo .pic1>div {
     width: 340px;
     height: 339px;
-    background-image: linear-gradient(to right, #8392FF, #62bdfc);
+    background-image: linear-gradient(45deg, #8392FF 40%, #62bdfc 100%);
     overflow: hidden;
 }
 .sectionfive .imgbo div:hover img{
