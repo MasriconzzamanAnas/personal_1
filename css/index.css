@@ -292,24 +292,26 @@ section .sectionone{
     color: #4270ee;
     text-underline-position: below;
 }
-.sectionfive .imgbox{
+.sectionfive .imgbo{
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.sectionfive .imgbox> div{
+.sectionfive .imgbo> div{
     padding: 14px;
     text-align: center;
 }
-.sectionfive .imgbox>div img {
+.sectionfive .imgbo .pic1>div {
     width: 340px;
     height: 339px;
-    background-image: -webkit-linear-gradient(0deg, #8490ff 40%, #62bdfc 100%);
+    background-image: linear-gradient(to right, #8392FF, #62bdfc);
     overflow: hidden;
 }
-.sectionfive .imgbox> div:hover img{
-    opacity: 0.3;
-}
+.sectionfive .imgbo div:hover img{
+    opacity: .3;
+} 
+/* */
+
 /* section five end */
