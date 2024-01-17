@@ -311,6 +311,7 @@ section .sectionone{
 }
 .sectionfive .imgbo div:hover img{
     opacity: .3;
+    transition: all .3s ease-in-out;
 } 
 /* */
 
